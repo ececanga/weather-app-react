@@ -23,7 +23,6 @@ body {
     flex: 50%;
     margin-bottom: 500px;
     padding-top: 150px;
-/ / padding-left: 100 px;
     margin-left: 300px;
 }
 
@@ -31,14 +30,12 @@ body {
     flex: 50%;
     margin-bottom: 500px;
     padding-top: 150px;
-/ / padding-left: 100 px;
     margin-left: -550px;
 }
 
 button {
     border-radius: 55px;
     border: 3px solid #F58A07;
-/ / border: 3 px solid #084887;
     background: #F9AB55;
     width: 10rem;
     height: 3rem;
@@ -74,7 +71,6 @@ h2 {
 
 .app {
     width: 100%;
-/ / height: 100 vh;
     position: relative;
     background-color: #909CC2;
     color: #F7F5FB;
@@ -125,7 +121,6 @@ h2 {
     justify-content: space-evenly;
     text-align: center;
     width: 100%;
-/ / margin: 1 rem auto;
     padding: 1rem;
     border-radius: 12px;
     background-color: #F9AB55;
@@ -145,8 +140,6 @@ h2 {
     font-size: 1.2rem;
     border-radius: 25px;
     border: 1px solid rgba(255, 255, 255, 0.8);
-/ / background: rgba(255, 255, 255, 01);
-/ / background: #E7A38E;
     color: #ffb703;
 }
 

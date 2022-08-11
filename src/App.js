@@ -10,11 +10,13 @@ function App() {
     const [dataIzmir, setDataIzmir] = useState({})
     const [location, setLocation] = useState('')
 
-    const urlOslo = `https://api.openweathermap.org/data/2.5/weather?q=Oslo&units=metric&appid=APIKEY`
-    const urlAnkara = `https://api.openweathermap.org/data/2.5/weather?q=Ankara&units=metric&appid=APIKEY`
-    const urlCanakkale = `https://api.openweathermap.org/data/2.5/weather?q=Canakkale&units=metric&appid=APIKEY`
-    const urlIzmir = `https://api.openweathermap.org/data/2.5/weather?q=Izmir&units=metric&appid=APIKEY`
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=APIKEY`
+    const API_KEY = process.env.REACT_APP_API_KEY;
+
+    const urlOslo = `https://api.openweathermap.org/data/2.5/weather?q=Oslo&units=metric&appid=${API_KEY}`
+    const urlAnkara = `https://api.openweathermap.org/data/2.5/weather?q=Ankara&units=metric&appid=${API_KEY}`
+    const urlCanakkale = `https://api.openweathermap.org/data/2.5/weather?q=Canakkale&units=metric&appid=${API_KEY}`
+    const urlIzmir = `https://api.openweathermap.org/data/2.5/weather?q=Izmir&units=metric&appid=${API_KEY}`
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${location}&units=metric&appid=${API_KEY}`
 
     const searchLocation = (event) => {
         if (event.key === 'Enter') {
