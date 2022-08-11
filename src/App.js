@@ -55,10 +55,9 @@ function App() {
     return (
         <div className="app">
             <div className="row">
-                <div className="weatherColumn">
-                    <h2>.</h2>
+                <h2>Weather</h2>
+                <div className="vl">
                 </div>
-
                 <div className="citiesColumn">
                     <div className="favoriteCities">
                         <div className="Ankara">
