@@ -20,14 +20,12 @@ body {
 }
 
 .citiesColumn {
-    flex: 50%;
     margin-bottom: 500px;
     padding-top: 150px;
     margin-left: 100px;
 }
 
 .column {
-    flex: 50%;
     margin-bottom: 500px;
     padding-top: 150px;
     margin-left: -550px;
