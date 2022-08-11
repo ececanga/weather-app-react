@@ -1,0 +1,32 @@
+Roll Dice
+
+int rollDice v1
+  Assign the numbers on the die (1..6) to an array arr
+  Shuffle arr by manually swapping elements
+  Or 
+  Reverse arr
+  return arr[0]
+  
+int rollDice v2
+	Initialize the counter for time
+	Stop and read the value for the minute
+	Return (minute/10)+1
+  
+int rollDice v3
+	Return any number that is 1, 2, 3, 4, 5 or 6 since a random die throw can always give the same result 
+
+
+Compare Version
+
+String compareVersion v1
+	Trim string
+	Use compareTo/equals methods on the trimmed string
+	Return the greater string
+  
+String compareVersion v2
+	Calculate weighted value (100*x) + (10*y) + z for each string (take ascii values if xyz are composed of strings, else take the int values)
+	Return the string that has greater weighted value
+  
+String compareVersion v3 (partially covers the solution)
+	If the # of digits in x1 > x2
+		Return x1 
