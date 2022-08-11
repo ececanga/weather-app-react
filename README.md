@@ -1,4 +1,7 @@
 # Notes
+
+- Pseudocodes for the algorithms are available in the docs directory.
+
 This project is a web application for displaying the weather data obtained from OpenWeatherMap Weather API. In addition to the given cities, the user can search for a city to get the weather information. The application is deployed via Heroku. 
 
 For the API info visit:
