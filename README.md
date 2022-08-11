@@ -1,3 +1,20 @@
+# Notes
+This project is a web application for displaying the weather data obtained from OpenWeatherMap Weather API. In addition to the given cities, the user can search for a city to get the weather information. The application is deployed via Heroku. 
+
+For the API info visit:
+- https://openweathermap.org/current
+- https://openweathermap.org/api
+
+Heroku:
+- https://devcenter.heroku.com/
+- https://weather-app-ece.herokuapp.com/
+
+References:
+- https://www.youtube.com/watch?v=UjeXpct3p7M
+- https://web.stanford.edu/group/csp/cs22/using-an-api.pdf
+- https://openweathermap.org/appid
+- https://www.youtube.com/watch?v=CrcN_TYLqGM
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
